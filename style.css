@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a {
+  @apply text-blue-700 underline font-bold;
+}
+
+.title {
+  @apply text-lg w-full text-center uppercase text-white bg-green-800 font-bold;
+}
